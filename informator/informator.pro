@@ -1,7 +1,32 @@
 QT -= gui
+QT += network mqtt
+
+CONFIG += console
+CONFIG += c++14
+
+DEFINES += USE_MQTT_HANDLER
 
 CONFIG += c++11 console
 CONFIG -= app_bundle
+
+unix {
+    OBJECTS_DIR = .obj
+    MOC_DIR     = .moc
+}
+
+CONFIG(yocto) {
+    message("Build for yocto")
+    SDK_DIR = $$PWD/../sdk
+} else {
+    message("Build for Debian")
+    CONFIG += link_pkgconfig
+    PKGCONFIG += sdk
+    SDK_DIR = /usr/share/libsdk
+    target.path=/usr/bin
+    INSTALLS += target
+}
+
+include($$SDK_DIR/app.pri)
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings
@@ -16,7 +41,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         informatorhandler.cpp \
-        main.cpp
+        main.cpp \
+        misc/cinformatormisc.cpp \
+        #Mqtt.cpp
 
 TRANSLATIONS += \
     informator_en_VG.ts
@@ -27,4 +54,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    informatorhandler.h
+    informatorhandler.h \
+    misc/cinformatormisc.h \
+    #Mqtt.h

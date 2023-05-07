@@ -1,0 +1,16 @@
+Source: mntconti-sdk
+Priority: optional
+Maintainer: unknown <support@prk-a.ru>
+Build-Depends: debhelper (>= 11), build-essential, qtmqtt (>=5.11.3), qtbase5-dev (>=5.11.3)
+Standards-Version: 4.1.3
+Section: main
+
+Package: mntconti-sdk-dev
+Architecture: any
+Depends: mntconti-sdk (= ${binary:Version}), ${misc:Depends}
+Description: Mntconti SDK development package
+
+Package: mntconti-sdk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Mntconti SDK package

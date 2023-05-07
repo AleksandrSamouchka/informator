@@ -1,0 +1,15 @@
+*/.moc
+*/.obj
+*.pro.user
+*/.qmake.stash
+*/Makefile*
+*/*.user*
+*/qrc_*
+*/tags
+*.deb
+*.changes
+*.buildinfo
+*/moc_*
+*/*.o
+*.yml
+/build

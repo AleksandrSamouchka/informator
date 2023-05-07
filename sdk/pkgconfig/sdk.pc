@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/libsdk
+
+
+Name: libsdk
+Description: Mntconti SDK library
+Version: 0.7.2
+Libs: -lsdk 
+Cflags: -I${includedir}
+

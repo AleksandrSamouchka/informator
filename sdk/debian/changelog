@@ -1,0 +1,350 @@
+mntconti-sdk (0.21.1) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * Merge branch 'development'  * development:   Changelog update for
+    проброс пустого id в топик [sdk] [bk1] [bk2]   Changelog update for
+    проброс пустого id в топик [sdk] [bk1] [bk2]   проброс пустого id в
+    топик [sdk] [bk1] [bk2]   Changelog update for Merge branch
+    'development' into feature/taganrog-add-validators [bk1] [bk2]
+    "обнуление" ID в топике для открыть/закрыть смену [bk1] [bk2]
+    Changelog update for присобачена кнопка reboot для таганрогских
+    валидаторов, в связи с чем: расширена структура топика предачи таска
+    в ii2 (sdk), расширена обработка таска в ii2, соответственно в gui
+    введена возможность выбора валидатора в списке и кнопка
+    Перезагрузить [sdk] [bk1] [bk2]   Version update after master
+    Changelog update for присобачена кнопка reboot для таганрогских
+    валидаторов, в связи с чем: расширена структура топика предачи таска
+    в ii2 (sdk), расширена обработка таска в ii2, соответственно в gui
+    введена возможность выбора валидатора в списке и кнопка
+    Перезагрузить [sdk] [bk1] [bk2]   Changelog update for присобачена
+    кнопка reboot для таганрогских валидаторов, в связи с чем: расширена
+    структура топика предачи таска в ii2 (sdk), расширена обработка
+    таска в ii2, соответственно в gui введена возможность выбора
+    валидатора в списке и кнопка Перезагрузить [sdk] [bk1] [bk2]
+    присобачена кнопка reboot для таганрогских валидаторов, в связи с
+    чем: расширена структура топика предачи таска в ii2 (sdk), расширена
+    обработка таска в ii2, соответственно в gui введена возможность
+    выбора валидатора в списке и кнопка Перезагрузить [sdk] [bk1] [bk2]
+    присобачена кнопка reboot для таганрогских валидаторов, в связи с
+    чем: расширена структура топика предачи таска в ii2 (sdk), расширена
+    обработка таска в ii2, соответственно в gui введена возможность
+    выбора валидатора в списке и кнопка Перезагрузить   Changelog update
+    for bk1 bk2 добавил иконку на 6 экранов для теста   bk1 bk2 добавил
+    иконку на 6 экранов для теста   Version update after master
+
+ --  <build@build-mgt-deb.prk-a.ru>  Mon, 17 Oct 2022 11:32:52 +0300
+
+mntconti-sdk (0.20.3) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * проброс пустого id в топик [sdk] [bk1] [bk2]
+
+ --  <build@build-mgt-deb.prk-a.ru>  Fri, 14 Oct 2022 17:07:30 +0300
+
+mntconti-sdk (0.20.2) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * присобачена кнопка reboot для таганрогских валидаторов, в связи с
+    чем: расширена структура топика предачи таска в ii2 (sdk), расширена
+    обработка таска в ii2, соответственно в gui введена возможность
+    выбора валидатора в списке и кнопка Перезагрузить [sdk] [bk1] [bk2]
+
+ --  <build@build-mgt-deb.prk-a.ru>  Fri, 14 Oct 2022 15:57:31 +0300
+
+mntconti-sdk (0.20.1) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * Version update after master
+
+ --  <build@build-mgt-deb.prk-a.ru>  Fri, 14 Oct 2022 15:56:25 +0300
+
+mntconti-sdk (0.14.5) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * присобачена кнопка reboot для таганрогских валидаторов, в связи с
+    чем: расширена структура топика предачи таска в ii2 (sdk), расширена
+    обработка таска в ii2, соответственно в gui введена возможность
+    выбора валидатора в списке и кнопка Перезагрузить [sdk] [bk1] [bk2]
+
+ --  <build@build-mgt-deb.prk-a.ru>  Fri, 14 Oct 2022 14:30:53 +0300
+
+mntconti-sdk (0.14.4) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * проверка сборки на yocto и deb ветки development^ включая sdk
+
+ --  <build@build-mgt-deb.prk-a.ru>  Thu, 21 Jul 2022 17:51:16 +0300
+
+mntconti-sdk (0.14.3) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * проверка сборки на yocto и deb ветки development^ включая sdk
+
+ --  <build@build-mgt-deb.prk-a.ru>  Thu, 21 Jul 2022 17:37:58 +0300
+
+mntconti-sdk (0.14.2) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * очередной тест сборки
+
+ --  <build@build-mgt-deb.prk-a.ru>  Thu, 21 Jul 2022 12:14:25 +0300
+
+mntconti-sdk (0.14.1) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * add taganrog validtors topic
+
+ --  <build@build-mgt-deb.prk-a.ru>  Thu, 21 Jul 2022 08:10:39 +0300
+
+mntconti-sdk (0.13.9) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * отладка автосборки
+
+ --  <build@build-mgt-deb.prk-a.ru>  Wed, 20 Jul 2022 09:17:23 +0300
+
+mntconti-sdk (0.13.8) focal; urgency=medium
+
+
+ --  <build@build-mgt-deb.prk-a.ru>  Tue, 19 Jul 2022 17:35:39 +0300
+
+mntconti-sdk (0.13.7) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * Merge branch 'feature/taganrog-add-validators' into development  *
+    feature/taganrog-add-validators: (27 commits)   убита случайно
+    залетевшая в репозиторий сборка.   доведено до минимально
+    приемлемого состояния. Два валика - держит и управляет
+    (открыть/закрыть смены;  сменить маршрут). Кнопка синхронизировать
+    убрана (не нужно - валик при закрытии смены сам этим озадачивается).
+    надо тестировать   [autoinform-metric] - update service file
+    Update README.md   [ii2][gui] - fix some mistakes   [gui] - upd
+    [gui][tracker] - separate alarm and sos signal.   [stm] - add
+    defines HAS_CCGOSHANDLER when no_cgos config do not use
+    [sdk][ii2][gui] - first work version with taganrog validators
+    control   [gui] - connect handle to control btn clicked, and now it
+    published to VALIDATOR/TAGANROG_TASK   [gui] - add terminal view,
+    control btn [sdk] - add topic for terminal tasks   [gui] - start
+    realize terminal widget   [ii2] - Ok. I think for now enought.
+    Testing: open shift, change route, close/open trip. Start to realize
+    GUI logic   [ii2] - make handle ping and open route task. If
+    validator has close shift, it can handle only next commands:
+    open_shift, sync, load_event   [sdk] - final method in CCoreApp
+    onMqttMessageReceived [ii2] - work with ping and send terminal
+    statuses   [sdk] - CCoreApplication add method
+    onMqttMessageReceived, that handle custom name topic   [ii2] - end
+    with main realization of TerminalServer. Need to add in
+    ii2::AppController. And start to testing   [ii2] - continue realize
+    terminal logic   [sdk] - update CTaganrogTerminalStatus topic
+    [sdk] - add topic to Taganrog Validators state.   ...
+
+ --  <build@build-mgt-deb.prk-a.ru>  Tue, 19 Jul 2022 16:04:36 +0300
+
+mntconti-sdk (0.13.6) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * Merge branch 'feature/taganrog-add-validators' into development  *
+    feature/taganrog-add-validators: (27 commits)   убита случайно
+    залетевшая в репозиторий сборка.   доведено до минимально
+    приемлемого состояния. Два валика - держит и управляет
+    (открыть/закрыть смены;  сменить маршрут). Кнопка синхронизировать
+    убрана (не нужно - валик при закрытии смены сам этим озадачивается).
+    надо тестировать   [autoinform-metric] - update service file
+    Update README.md   [ii2][gui] - fix some mistakes   [gui] - upd
+    [gui][tracker] - separate alarm and sos signal.   [stm] - add
+    defines HAS_CCGOSHANDLER when no_cgos config do not use
+    [sdk][ii2][gui] - first work version with taganrog validators
+    control   [gui] - connect handle to control btn clicked, and now it
+    published to VALIDATOR/TAGANROG_TASK   [gui] - add terminal view,
+    control btn [sdk] - add topic for terminal tasks   [gui] - start
+    realize terminal widget   [ii2] - Ok. I think for now enought.
+    Testing: open shift, change route, close/open trip. Start to realize
+    GUI logic   [ii2] - make handle ping and open route task. If
+    validator has close shift, it can handle only next commands:
+    open_shift, sync, load_event   [sdk] - final method in CCoreApp
+    onMqttMessageReceived [ii2] - work with ping and send terminal
+    statuses   [sdk] - CCoreApplication add method
+    onMqttMessageReceived, that handle custom name topic   [ii2] - end
+    with main realization of TerminalServer. Need to add in
+    ii2::AppController. And start to testing   [ii2] - continue realize
+    terminal logic   [sdk] - update CTaganrogTerminalStatus topic
+    [sdk] - add topic to Taganrog Validators state.   ...
+
+ --  <build@build-mgt-deb.prk-a.ru>  Tue, 19 Jul 2022 12:33:50 +0300
+
+mntconti-sdk (0.13.5) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * Merge branch 'feature/taganrog-add-validators' into development  *
+    feature/taganrog-add-validators: (27 commits)   убита случайно
+    залетевшая в репозиторий сборка.   доведено до минимально
+    приемлемого состояния. Два валика - держит и управляет
+    (открыть/закрыть смены;  сменить маршрут). Кнопка синхронизировать
+    убрана (не нужно - валик при закрытии смены сам этим озадачивается).
+    надо тестировать   [autoinform-metric] - update service file
+    Update README.md   [ii2][gui] - fix some mistakes   [gui] - upd
+    [gui][tracker] - separate alarm and sos signal.   [stm] - add
+    defines HAS_CCGOSHANDLER when no_cgos config do not use
+    [sdk][ii2][gui] - first work version with taganrog validators
+    control   [gui] - connect handle to control btn clicked, and now it
+    published to VALIDATOR/TAGANROG_TASK   [gui] - add terminal view,
+    control btn [sdk] - add topic for terminal tasks   [gui] - start
+    realize terminal widget   [ii2] - Ok. I think for now enought.
+    Testing: open shift, change route, close/open trip. Start to realize
+    GUI logic   [ii2] - make handle ping and open route task. If
+    validator has close shift, it can handle only next commands:
+    open_shift, sync, load_event   [sdk] - final method in CCoreApp
+    onMqttMessageReceived [ii2] - work with ping and send terminal
+    statuses   [sdk] - CCoreApplication add method
+    onMqttMessageReceived, that handle custom name topic   [ii2] - end
+    with main realization of TerminalServer. Need to add in
+    ii2::AppController. And start to testing   [ii2] - continue realize
+    terminal logic   [sdk] - update CTaganrogTerminalStatus topic
+    [sdk] - add topic to Taganrog Validators state.   ...
+
+ --  <build@build-mgt-deb.prk-a.ru>  Tue, 19 Jul 2022 12:23:15 +0300
+
+mntconti-sdk (0.13.4) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * [skip ci] Changelog update for Merge branch 'feature/autoinformator-
+    api-v4' into development  [sdk] - update sdk for new autoinform
+    fields [informator][led] - update for new autoinform [autoinform-
+    metric] - add debian folder, update service file  # Conflicts: #
+    autoinform-metric/AppController.cpp # autoinform-metric/Defines.h #
+    autoinform-metric/Topics/FileActualTopic.cpp # autoinform-
+    metric/autoinform-metric.pro # cvs/debian/changelog #
+    gnss/debian/changelog # gui/debian/changelog # ii2/debian/changelog
+    # informator/debian/changelog # integration_mqtt/debian/changelog #
+    led/debian/changelog # liaz/debian/changelog # lte/debian/changelog
+    # mmm/debian/changelog # onvif/debian/changelog #
+    recorder/debian/changelog # sdk/app.pri # stm/debian/changelog #
+    tracker/debian/changelog
+
+ --  <build@build-mgt-deb.prk-a.ru>  Wed, 13 Jul 2022 12:26:06 +0300
+
+mntconti-sdk (0.13.3) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * Merge branch 'feature/autoinformator-api-v4' into development  [sdk]
+    - update sdk for new autoinform fields [informator][led] - update
+    for new autoinform [autoinform-metric] - add debian folder, update
+    service file  # Conflicts: # autoinform-metric/AppController.cpp #
+    autoinform-metric/Defines.h # autoinform-
+    metric/Topics/FileActualTopic.cpp # autoinform-metric/autoinform-
+    metric.pro # cvs/debian/changelog # gnss/debian/changelog #
+    gui/debian/changelog # ii2/debian/changelog #
+    informator/debian/changelog # integration_mqtt/debian/changelog #
+    led/debian/changelog # liaz/debian/changelog # lte/debian/changelog
+    # mmm/debian/changelog # onvif/debian/changelog #
+    recorder/debian/changelog # sdk/app.pri # stm/debian/changelog #
+    tracker/debian/changelog
+
+ --  <build@build-mgt-deb.prk-a.ru>  Wed, 13 Jul 2022 11:54:56 +0300
+
+mntconti-sdk (0.13.2) focal; urgency=medium
+
+  * update topics for led
+  * 
+
+ -- admin <user@DELL-PT-7810.local>  Tue, 12 Jul 2022 11:05:01 +0300
+
+mntconti-sdk (0.11.5) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * [sdk] last? ha-ha-ha
+
+ --  <build@build-mgt-deb.prk-a.ru>  Tue, 24 May 2022 13:34:31 +0300
+
+mntconti-sdk (0.11.4) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * [sdk] last? ha-ha-ha
+
+ --  <build@build-mgt-deb.prk-a.ru>  Tue, 24 May 2022 12:52:18 +0300
+
+mntconti-sdk (0.11.3) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * [sdk] last test?
+
+ --  <build@build-mgt-deb.prk-a.ru>  Tue, 24 May 2022 12:45:28 +0300
+
+mntconti-sdk (0.11.2) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  * [sdk] test3
+
+ --  <build@build-mgt-deb.prk-a.ru>  Tue, 24 May 2022 11:14:03 +0300
+
+mntconti-sdk (0.11.1) focal; urgency=medium
+
+  [ build@build-mgt-deb.prk-a.ru ]
+  *Add Temperature handler
+  * 
+
+  [  ]
+  * 
+
+ --  <build@build-mgt-deb.prk-a.ru>  Fri, 20 May 2022 16:52:45 +0300
+
+mntconti-sdk (0.9.3) focal; urgency=medium
+
+  * update for sdk, that can union build
+  * 
+
+ -- admin <user@DELL-PT-7810.local>  Tue, 29 Mar 2022 10:19:23 +0300
+
+mntconti-sdk (0.9.1) focal; urgency=medium
+
+  * update sdk for union build
+
+ -- admin <user@DELL-PT-7810.local>  Wed, 09 Mar 2022 10:58:59 +0300
+
+mntconti-sdk (0.7.6-5) unstable; urgency=medium
+
+  [ ash@build-mgt-deb.prk-a.ru ]
+  * New recorder
+
+ --  <ash@build-mgt-deb.prk-a.ru>  Mon, 18 Oct 2021 22:44:57 +0300
+
+mntconti-sdk (0.7.6-3) unstable; urgency=medium
+
+  [ ash@build-mgt-deb.prk-a.ru ]
+  * 
+
+ --  <ash@build-mgt-deb.prk-a.ru>  Wed, 07 Jul 2021 17:50:23 +0300
+
+mntconti-sdk (0.7.5-2) unstable; urgency=medium
+
+  [ ash@build-mgt-deb.prk-a.ru ]
+  * Rebuild 
+
+ --  <ash@build-mgt-deb.prk-a.ru>  Mon, 05 Jul 2021 15:55:57 +0300
+
+mntconti-sdk (0.7.5-1) unstable; urgency=medium
+
+  [ ash@build-mgt-deb.prk-a.ru ]
+  * added authorization mqtt support
+
+ --  <ash@build-mgt-deb.prk-a.ru>  Thu, 01 Jul 2021 18:12:02 +0300
+
+mntconti-sdk (0.7.4) unstable; urgency=medium
+
+  [ ash@build-mgt-deb.prk-a.ru ]
+  * Tramwaii type add
+
+ --  <ash@build-mgt-deb.prk-a.ru>  Tue, 15 Jun 2021 16:08:28 +0300
+
+mntconti-sdk (0.7.3+liaz328) unstable; urgency=medium
+
+  [ ash@build-mgt-deb.prk-a.ru ]
+  * Liaz 328 initial commit
+
+ --  <ash@build-mgt-deb.prk-a.ru>  Mon, 25 Jan 2021 18:51:06 +0300
+
+mntconti-sdk (0.7.2) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- unknown <support@prk-a.ru>  Thu, 24 Sep 2020 01:41:01 +0300

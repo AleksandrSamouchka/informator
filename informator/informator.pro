@@ -43,10 +43,17 @@ SOURCES += \
         informatorhandler.cpp \
         main.cpp \
         misc/cinformatormisc.cpp \
+        misc/informator/jsonmessagesconverter.cpp \
+        misc/routes/routeInfoJson.cpp \
+        misc/routes/routeManager.cpp \
+        misc/routes/routesManagerPrivate.cpp \
+        misc/routes/routesNetworkParser.cpp \
+        externalMqttClientHandler.cpp \
+        gnssdatabrocker.cpp
         #Mqtt.cpp
 
 TRANSLATIONS += \
-    informator_en_VG.ts
+        informator_en_VG.ts
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -54,6 +61,13 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    informatorhandler.h \
-    misc/cinformatormisc.h \
-    #Mqtt.h
+        informatorhandler.h \
+        misc/cinformatormisc.h \
+        misc/informator/jsonmessagesconverter.h \
+        misc/routes/routeInfoJson.h \
+        misc/routes/routeManager.h \
+        misc/routes/routesManagerPrivate.h \
+        misc/routes/routesNetworkParser.h \
+        externalMqttClientHandler.h \
+        gnssdatabrocker.h \
+        #Mqtt.h

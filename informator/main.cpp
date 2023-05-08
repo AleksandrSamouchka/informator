@@ -2,6 +2,7 @@
 #include <QDir>
 #include <QtCore/QCoreApplication>
 #include <QMqttTopicFilter>
+#include <QMqttMessage>
 
 // SDK
 #include <CMainHandler/CMainHandler.h>
@@ -20,7 +21,7 @@ int main(int argc, char *argv[])
 
     qRegisterMetaType<QVector<RouteFullInfo_t>>();
     qRegisterMetaType<QMqttTopicFilter>();
-    //qRegisterMetaType<QMqttMessage>();
+    qRegisterMetaType<QMqttMessage>();
 
     QDir::setCurrent("/home/mntconti/informator");
 

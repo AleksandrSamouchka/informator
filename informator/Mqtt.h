@@ -5,7 +5,7 @@
 #include <mutex>
 #include <QSemaphore>
 
-#include "ExternalMqttClientHandler.h"
+#include "externalMqttClientHandler.h"
 
 class Mqtt : public QObject
 {

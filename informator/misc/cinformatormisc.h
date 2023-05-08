@@ -9,7 +9,7 @@
 #include <QByteArray>
 
 //SDK
-#include "Mqtt/Topics/Informator/InformatorDefines.h"
+#include <Mqtt/Topics/Informator/InformatorDefines.h>
 
 /** ***********************************************************************
  * @class CInformatorMisc
@@ -41,8 +41,5 @@ private:
     static const time_struct_informator_t defaultUtc;
     static InformatorSettings_t DEFAULT_INF_SETTINGS;
 };
-
-
-
 
 #endif // CINFORMATORMISC_H

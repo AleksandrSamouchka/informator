@@ -22,6 +22,7 @@ class CInformatorMisc
 {
 public:
     CInformatorMisc() = delete;
+    static EFix_type_informator parseFixType(const QString &strType);
     static QVector<RouteInfo_t> routeFullInfosToRouteInfos(const QVector<RouteFullInfo_t> &fullInfos);
     static QDateTime utcToDateTime(const time_struct_informator_t &utc);
     static int nextStation(const RouteState_t &routeState, int curStation);

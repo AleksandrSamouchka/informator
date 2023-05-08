@@ -21,6 +21,28 @@ InformatorSettings_t CInformatorMisc::DEFAULT_INF_SETTINGS =
     ""
 };
 
+EFix_type_informator CInformatorMisc::parseFixType(const QString &strType)
+{
+    // Функция с самым неясным предназначением!!
+    // Что за фиксация типа и для чего это нужно????
+    EFix_type_informator type = EFix_type_informator::NOT_AVALIABLE;
+
+    if(strType == "2D")
+    {
+        type = EFix_type_informator::FIX2D;
+    }
+    else if(strType == "3D")
+    {
+        type = EFix_type_informator::FIX3D;
+    }
+    else if(strType == "NONE")
+    {
+        type = EFix_type_informator::INACTIVE;
+    }
+
+    return type;
+}
+
 QVector<RouteInfo_t> CInformatorMisc::routeFullInfosToRouteInfos(const QVector<RouteFullInfo_t> &fullInfos)
 {
     QVector<RouteInfo_t> infos;
